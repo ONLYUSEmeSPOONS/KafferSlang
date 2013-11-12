@@ -49,6 +49,7 @@ class SnakeEnvironment extends Environment{
     public void paintEnvironment(Graphics graphics) {
         if (this.grid != null){
             this.grid.paintComponent(graphics);
+            
         }
     }
     
